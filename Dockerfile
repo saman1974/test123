@@ -10,7 +10,7 @@ COPY requirements.txt ./
 # Install runtime dependencies (none here) and pytest optionally if you want tests inside container
 RUN pip install --no-cache-dir -r requirements.txt || true
 
-# Copy package code 12
+# Copy package code 123
 COPY myapp ./myapp
 
 # Make a small entrypoint: run the CLI when container runs
